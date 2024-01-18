@@ -34,7 +34,7 @@ x,y,z=fruits
 # print multiple variables, like this ('apple', 'orange', 'banana')
 print(x,y,z)
 
-# concat, appleorangebanana
+# concatation, appleorangebanana
 # do not support + for different variable type
 print(x+y+z)
 
@@ -101,12 +101,3 @@ print(len(x))
 txt = "The best things in life are free!"
 print("free" in txt)
 print("expensive" not in txt)
-
-# from position 2(included) to position 5(not included) 
-# include start, not end
-b = "Hello, World!"
-print(b[2:5])
-print(b[:5])
-print(b[2:])
-# Use negative indexes to start the slice from the end of the string
-print(b[-5:-2])
